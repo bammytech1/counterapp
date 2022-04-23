@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    
+    font-size: 1.2rem;
+}
+
+
+body{
+   font-family: sans-serif;
+}
+
+.container{
+    max-width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 200px;
+    height: 100vh;
+
+
+}
+
+.container-second{
+    background-color: blue;
+    text-align: center;
+    color: white;
+}
+
+
+.container-second .count{
+    font-size: 2rem;
+}
+
+.container-second h1{
+    margin-bottom: 1rem;
+}
+
+
+.buttons button{
+    cursor: pointer;
+    margin: 10px;
+    margin: .5rem;
+    
+}
+
+
+.buttons .substract{
+    background-color: orangered;
+}
+
+.buttons .reset{
+    background-color: white;
+    
+}
+
+.buttons .add{
+    background-color:green ;
+    
+}
